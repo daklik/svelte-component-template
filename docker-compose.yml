@@ -1,0 +1,9 @@
+version: '3'
+services:
+  storybook:
+    build: .
+    user: node
+    ports:
+      - 6006:6006
+    volumes:
+      - ./src:/app/src:cached
