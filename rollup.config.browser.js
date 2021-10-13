@@ -1,6 +1,6 @@
-import svelte from 'rollup-plugin-svelte';
-import resolve from '@rollup/plugin-node-resolve';
-import pkg from './package.json';
+import svelte from 'rollup-plugin-svelte'
+import resolve from '@rollup/plugin-node-resolve'
+import pkg from './package.json'
 
 export default {
 	input: 'src/index.js',
@@ -27,8 +27,8 @@ export default {
 				customElement: false,
 
 				//svelte: require('svelte')
-			  }
+			}
 		),
 		resolve()
 	]
-};
+}

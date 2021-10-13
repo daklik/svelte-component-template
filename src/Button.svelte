@@ -1,6 +1,6 @@
 <script>
-	import { createEventDispatcher } from 'svelte';
-	const dispatch = createEventDispatcher();
+	import { createEventDispatcher } from 'svelte'
+	const dispatch = createEventDispatcher()
 	/**
 	 * Label of the Button. Keep it short!
 	 */

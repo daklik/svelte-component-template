@@ -1,6 +1,6 @@
 
-import { action } from '@storybook/addon-actions';
-import Button from './Button.svelte';
+import { action } from '@storybook/addon-actions'
+import Button from './Button.svelte'
 
 export default {
   component: Button,
@@ -8,17 +8,17 @@ export default {
   parameters:{
     layout:'centered',
   },
-};
+}
 
-const Template = ({ onButtonClick, ...args }) => ({
+const Template = ({ ...args }) => ({
   Component: Button,
   props: args,
   on: {
     onButtonClick: action('onButtonClick'),
   },
-});
+})
 
-export const Default = Template.bind({});
+export const Default = Template.bind({})
 Default.args = {
   label: 'Hello',
-};
+}
